@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreasureChest.Cons", "TreasureChest.Cons\TreasureChest.Cons.csproj", "{D490E25E-56BB-4212-92ED-6C16323C28E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreasureChest.Cons.Core", "TreasureChest.Cons.Core\TreasureChest.Cons.Core.csproj", "{9B015A45-A42E-4C75-86B0-D8912D01C2EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D490E25E-56BB-4212-92ED-6C16323C28E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D490E25E-56BB-4212-92ED-6C16323C28E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D490E25E-56BB-4212-92ED-6C16323C28E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D490E25E-56BB-4212-92ED-6C16323C28E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B015A45-A42E-4C75-86B0-D8912D01C2EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B015A45-A42E-4C75-86B0-D8912D01C2EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B015A45-A42E-4C75-86B0-D8912D01C2EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B015A45-A42E-4C75-86B0-D8912D01C2EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CFE984D5-BF0A-423A-B8E8-F181623DC44E}
+	EndGlobalSection
+EndGlobal
