@@ -34,13 +34,12 @@ Ter visualisatie willen we het mogelijk maken om deze schatkisten te maken in on
 
 **Let's ... sail away!**
 
-## Opdracht 1 - Eender wel item in de schatkist stoppen
-We starten zo eenvoudig mogelijk. We zullen beginnen met het maken van een schatkist zonder slot, maar we zorgen er wel voor dat we reeds eender welk item in de kist kunnen stoppen.
-
+## Opdracht 1 - Een schatkist van eender welk type inhoud
+We starten zo eenvoudig mogelijk. We zullen beginnen met het maken van een schatkist zonder slot, maar we zorgen er wel voor dat we reeds een schatkist van eender welk type inhoud kunnen maken.
 
 1. Maak in het `.Core` project alvast een klasse `TreasureChest` in de `Domain` map. Laat deze voorlopig nog leeg. 
 
-2. Omdat we verschillende items in de `TreasureChest` willen kunnen stoppen, maken we alvast onmiddellijk een aantal items aan. Hier zullen we verschillende klasses onderbrengen die de inhoud van onze `TreasureChest` zullen voorstellen. Maak hiervoor in de `Domain` folder een nieuwe folder met de naam `Items`.
+2. Omdat we verschillende items in een `TreasureChest` willen kunnen stoppen, maken we alvast onmiddellijk een aantal items aan. Hier zullen we verschillende klasses onderbrengen die de inhoud van onze `TreasureChest` zullen voorstellen. Maak hiervoor in de `Domain` folder een nieuwe folder met de naam `Items`.
 
 3. Gezien we verschillende soorten items willen aanmaken, is dit een interessante plek om een basisklasse te voorzien. Maak in de `Items` folder een `abstract class ItemBase` en zorg ervoor dat deze een property in de constructor ontvangt dat vertelt hoeveel het item waard is, uitgedrukt in euro. Elk item dat we in de schatkist stoppen heeft namelijk een geldwaarde.
 
